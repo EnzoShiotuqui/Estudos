@@ -10,4 +10,5 @@ function Pessoa(nome, sobrenome){
 const p1 = new Pessoa("enzo", "shiotuqui")
 const p2 = new Pessoa ("alice", "Shiotuqui")
 
-p1.metodo()
+console.log(p1)
+console.log(p2)
