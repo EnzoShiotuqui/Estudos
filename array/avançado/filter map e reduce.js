@@ -12,3 +12,5 @@ const numeross = [5, 10, 50, 70, 80, 2, 76, 42]
 
 const dobro = numeross.map(valor => valor * 2)
 console.log(dobro)
+
+

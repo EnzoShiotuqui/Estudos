@@ -42,6 +42,15 @@ const a2 = [4,5,6]
 const a3 = a1.concat(a2)
 ----------------------------------------------------------------------------------------------------------------
 **funções array*
+*filter, map e reduce*
 
-Função filter
+USAM FUNÇÔES CALLBACK
+
+Função filter = filtra o array e muda ele dependendo dq foi filtrado
+
+função map = altera valores do array
+
+
+
+
 
