@@ -39,3 +39,34 @@ function funcao (){
     console.log(arguments)
 }
 funcao(1, 2, 3)
+------------------------------------------------------------------------------------------------------------
+**funções fábrica**
+São funções que retornam objetos
+As vezes é usada a palavra THIS
+THIS = é usada para se referir ao objeto que está sendo executado no código, ou seja quem chamar o objeto 
+
+function criaPessoa (nome, sobrenome){
+    return{
+        nome,
+        sobrenome,
+        fala: function(assunto){
+            return `${this.nome} está ${assunto}`
+        }
+    }
+}
+
+const p1 = criaPessoa("enzo", "shiotuqui") 
+console.log(p1.fala("falando de js")) //p1 no caso seria o THIS
+---------------------------------------------------------------------------------------------------------------------
+**função construtora**
+Mesma coisa da função fábrica mas cria NOVOS atributos (new)
+O nome da função tem que ter letra maiuscula
+sempre tem que usar o NEW
+NEW = cria um objeto vazio e direciona o this ao novo objeto e retorna o objeto a uma variavel ( não precisa usar return )
+
+funcition Pessoa(nome, sobrenome) {
+    this.nome = nome
+    this.sobrenome = sobrenome
+}
+
+const p1 = new Pessoa("enzo", "shiotuqui")

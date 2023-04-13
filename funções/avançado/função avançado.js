@@ -32,3 +32,4 @@ function funcao (){
     console.log(total)
 }
 funcao(1, 2, 3, 4, 5)
+
