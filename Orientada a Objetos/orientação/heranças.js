@@ -29,4 +29,3 @@ class SmartPhone extends  DispositivoEletronico { // as heranças da disposito f
 
 const s1 = new SmartPhone("Iphone", "preto", "14 pro MAX" )
 console.log(s1)
-
