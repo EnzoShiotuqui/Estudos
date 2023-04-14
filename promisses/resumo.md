@@ -35,3 +35,24 @@ O termo catch captura o erro que ocore junto ao REJECT
 })
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 **Async e Await**
+
+serve para encurtar códigos e transformar códigos sincronos em assincors
+
+só pode usar await quando o async for declarado 
+async function executa(){
+    try {
+        const fase1 = await esperaOU("fase 1", rand())
+        console.log(fase1)
+    
+        const fase2 = await esperaOU("fase 2", rand())
+        console.log(fase2)
+    
+        const fase3 = await esperaOU("fase 3", rand())
+        console.log(fase3)
+    } catch(e){
+        console.log(e)
+    }
+}
+executa()
+
+  
